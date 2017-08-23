@@ -1,24 +1,21 @@
 <!DOCTYPE agenda SYSTEM "agenda.dtd">
 <agenda>
-    <contacto>
+    <contacto sexo="hombre">
         <nombre>Odei</nombre>
-		<apellidos>Riveiro</nombre>
+		<apellidos>Riveiro</apellidos>
 		<fnacimiento>22/12/1987</fnacimiento>
 		<email>odei.riveiro@zafra.com</email>
-        <telefonos>
-            <telefono tipo="fijo">953000000</telefono>
-            <telefono tipo="movil">666666666</telefono>
-        </telefonos>
+		<telefono tipo="fijo">953000000</telefono>
+		<telefono tipo="movil">666666666</telefono>
         <direccion ciudad="Linares" provincia="Jaén" calle="Salvador Dalí" bloque="9B" piso="2A" />
         <empresa sector="informatica">FAMOSAWEB</empresa>
     </contacto>
-    <contacto>
-        <nombre>Pedro</nombre>
-		<apellidos>Perico Pipete</nombre>
+    <contacto sexo="mujer">
+        <nombre>Andrea</nombre>
+		<apellidos>Perico Pipete</apellidos>
 		<fnacimiento>04/06/1993</fnacimiento>
-		<email>pedro.perico@pipete.com</email>
-        <telefono tipo="movil">616161616</telefono>
+		<email>Andrea.perico@pipete.com</email>
+		<telefono tipo="movil">616161616</telefono>
         <direccion ciudad="Andújar" provincia="Jaén" calle="Juan Bosco" bloque="1C" piso="4B" />
-        <empresa sector="electronica">ENERGY SISTEM SOYNTEC S.A.</empresa>
     </contacto>
 </agenda>
