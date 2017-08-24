@@ -1,12 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE agenda SYSTEM "agenda.dtd">
-<agenda>
+<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="agenda.xsd">
     <contacto sexo="hombre">
         <nombre>Odei</nombre>
 		<apellidos>Riveiro</apellidos>
 		<fnacimiento>22/12/1987</fnacimiento>
 		<email>odei.riveiro@zafra.com</email>
-		<telefono tipo="fijo">953000000</telefono>
-		<telefono tipo="movil">666666666</telefono>
+		<telefonos>
+			<telefono tipo="fijo">953000000</telefono>
+			<telefono tipo="movil">666666666</telefono>
+		</telefonos>
 		<direccion>
 			<calle>Salvador Dalí</calle>
 			<bloque>9B</bloque>
@@ -22,7 +25,9 @@
 		<apellidos>Perico Pipete</apellidos>
 		<fnacimiento>04/06/1993</fnacimiento>
 		<email>andrea.perico@pipete.com</email>
-		<telefono tipo="movil">616161616</telefono>
+		<telefonos>
+			<telefono tipo="movil">616161616</telefono>
+		</telefonos>
 		<direccion>
 			<calle>Juan Bosco</calle>
 			<bloque>1C</bloque>

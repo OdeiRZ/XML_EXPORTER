@@ -1,9 +1,10 @@
 <!ELEMENT agenda (contacto)*>
-<!ELEMENT contacto (nombre, apellidos, fnacimiento?, email*, telefono+, direccion?)>
+<!ELEMENT contacto (nombre, apellidos, fnacimiento?, email*, telefonos, direccion?)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT apellidos (#PCDATA)>
 <!ELEMENT fnacimiento (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
+<!ELEMENT telefonos (telefono)+>
 <!ELEMENT telefono (#PCDATA)>
 <!ELEMENT direccion (calle?, bloque?, letra?, ciudad?, provincia?, pais?, cp?)?>
 <!ELEMENT calle (#PCDATA)>
