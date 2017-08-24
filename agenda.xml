@@ -24,8 +24,8 @@
     <contacto id="2">
         <nombre>Andrea</nombre>
 		<apellidos>Marcos Requena</apellidos>
-		<fnacimiento>04/06/1993</fnacimiento>
-		<email>andrea.perico@pipete.com</email>
+		<fnacimiento>04/06/1983</fnacimiento>
+		<email>andrea.marcos@requena.com</email>
 		<telefonos>
 			<telefono tipo="movil">616161616</telefono>
 		</telefonos>
