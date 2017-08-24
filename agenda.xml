@@ -4,7 +4,7 @@
 <agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="agenda.xsd">
     <contacto id="1">
         <nombre>Odei</nombre>
-		<apellidos>Riveiro</apellidos>
+		<apellidos>Riveiro Zafra</apellidos>
 		<fnacimiento>22/12/1987</fnacimiento>
 		<email>odei.riveiro@zafra.com</email>
 		<telefonos>
@@ -23,11 +23,19 @@
     </contacto>
     <contacto id="2">
         <nombre>Andrea</nombre>
-		<apellidos>Perico Pipete</apellidos>
+		<apellidos>Marcos Requena</apellidos>
 		<fnacimiento>04/06/1993</fnacimiento>
 		<email>andrea.perico@pipete.com</email>
 		<telefonos>
 			<telefono tipo="movil">616161616</telefono>
+		</telefonos>
+    </contacto>
+    <contacto id="3">
+        <nombre>Juan Antonio</nombre>
+		<apellidos>Rodriguez</apellidos>
+		<fnacimiento>12/01/2000</fnacimiento>
+		<telefonos>
+			<telefono tipo="fijo">999888777</telefono>
 		</telefonos>
 		<direccion>
 			<calle>Juan Bosco</calle>
@@ -38,13 +46,5 @@
 			<pais>España</pais>
 			<cp>23740</cp>
 		</direccion>
-    </contacto>
-    <contacto id="3">
-        <nombre>Juan Antonio</nombre>
-		<apellidos>Rodriguez</apellidos>
-		<fnacimiento>12/01/2000</fnacimiento>
-		<telefonos>
-			<telefono tipo="fijo">999888777</telefono>
-		</telefonos>
     </contacto>
 </agenda>
