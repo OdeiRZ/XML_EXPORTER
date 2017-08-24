@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE agenda SYSTEM "agenda.dtd">
+<?xml-stylesheet href="agenda.xsl" type="text/xsl"?>
 <agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="agenda.xsd">
-    <contacto sexo="hombre">
+    <contacto id="1">
         <nombre>Odei</nombre>
 		<apellidos>Riveiro</apellidos>
 		<fnacimiento>22/12/1987</fnacimiento>
@@ -20,7 +21,7 @@
 			<cp>23700</cp>
 		</direccion>
     </contacto>
-    <contacto sexo="mujer">
+    <contacto id="2">
         <nombre>Andrea</nombre>
 		<apellidos>Perico Pipete</apellidos>
 		<fnacimiento>04/06/1993</fnacimiento>
@@ -37,5 +38,13 @@
 			<pais>España</pais>
 			<cp>23740</cp>
 		</direccion>
+    </contacto>
+    <contacto id="3">
+        <nombre>Juan Antonio</nombre>
+		<apellidos>Rodriguez</apellidos>
+		<fnacimiento>12/01/2000</fnacimiento>
+		<telefonos>
+			<telefono tipo="fijo">999888777</telefono>
+		</telefonos>
     </contacto>
 </agenda>

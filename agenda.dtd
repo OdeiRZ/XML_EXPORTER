@@ -14,5 +14,5 @@
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
 <!ELEMENT cp (#PCDATA)>
-<!ATTLIST contacto sexo (hombre|mujer) #IMPLIED>
+<!ATTLIST contacto id ID #REQUIRED>
 <!ATTLIST telefono tipo (fijo|movil) #IMPLIED>
