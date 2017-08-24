@@ -4,11 +4,11 @@
 		<html>
 			<head>
 				<title>Agenda XML</title>
-				<link rel="stylesheet" href="estilos.css"/>
+				<link rel="stylesheet" href="agenda.css"/>
 			</head>
 			<body>
-				<h1 align="center">Contactos</h1>
-				<table align="center" border="2">
+				<h2><span>(<xsl:value-of select="count(//contacto)"/>) </span>Contactos</h2>
+				<table>
 					<tr>
 						<th></th>
 						<th>Nombre</th>
@@ -50,8 +50,8 @@
 								</xsl:choose>
 							</td>
 							<td>
-								<xsl:for-each select="./telefonos/telefono">
-									<ul>
+								<ul>
+									<xsl:for-each select="./telefonos/telefono">
 										<li>
 											<xsl:if test="@tipo != ''">
 												<xsl:value-of select="@tipo"/>
@@ -59,8 +59,8 @@
 											</xsl:if>
 											<xsl:value-of select="."/>
 										</li>
-									</ul>
-								</xsl:for-each>
+									</xsl:for-each>
+								</ul>
 							</td>
 							<td>
 								<xsl:choose>
@@ -88,7 +88,6 @@
 						</tr>
 					</xsl:for-each>
 				</table>
-				<h4 align="center">Total de Registros: <xsl:value-of select="count(//contacto)"/></h4>
 			</body>
 		</html>
 	</xsl:template>
