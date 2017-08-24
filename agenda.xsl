@@ -18,8 +18,8 @@
 						<th>Dirección</th>
 					</tr>
 					<xsl:for-each select="/agenda/contacto">
-						<xsl:sort order="ascending" select="nombre"/>
-						<xsl:sort order="ascending" select="apellidos"/>
+						<xsl:sort order="ascending" select="./nombre"/>
+						<xsl:sort order="ascending" select="./apellidos"/>
 						<tr>
 							<td>
 								<img src="img/{@id}.png" alt="{./nombre}"/>
