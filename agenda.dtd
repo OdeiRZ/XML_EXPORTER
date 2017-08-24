@@ -1,19 +1,17 @@
 <!ELEMENT agenda (contacto)*>
-<!ELEMENT contacto (nombre, apellidos, fnacimiento?, email?, telefono+, direccion?, empresa?)>
+<!ELEMENT contacto (nombre, apellidos, fnacimiento?, email*, telefono+, direccion?)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT apellidos (#PCDATA)>
 <!ELEMENT fnacimiento (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT telefono (#PCDATA)>
-<!ELEMENT direccion (#PCDATA)>
-<!ELEMENT empresa (#PCDATA)>
-<!ATTLIST contacto sexo (hombre | mujer) #IMPLIED>
-<!ATTLIST telefono tipo (fijo | movil) #IMPLIED>
-<!ATTLIST direccion
-					ciudad CDATA #REQUIRED
-					provincia CDATA #REQUIRED
-					calle CDATA #REQUIRED
-					bloque CDATA #REQUIRED
-					piso CDATA #IMPLIED
->
-<!ATTLIST empresa sector CDATA #REQUIRED>
+<!ELEMENT direccion (calle?, bloque?, letra?, ciudad?, provincia?, pais?, cp?)?>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT bloque (#PCDATA)>
+<!ELEMENT letra (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ATTLIST contacto sexo (hombre|mujer) #IMPLIED>
+<!ATTLIST telefono tipo (fijo|movil) #IMPLIED>

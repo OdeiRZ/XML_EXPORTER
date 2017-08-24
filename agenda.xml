@@ -7,15 +7,30 @@
 		<email>odei.riveiro@zafra.com</email>
 		<telefono tipo="fijo">953000000</telefono>
 		<telefono tipo="movil">666666666</telefono>
-        <direccion ciudad="Linares" provincia="Jaén" calle="Salvador Dalí" bloque="9B" piso="2A" />
-        <empresa sector="informatica">FAMOSAWEB</empresa>
+		<direccion>
+			<calle>Salvador Dalí</calle>
+			<bloque>9B</bloque>
+			<letra>2A</letra>
+			<ciudad>Linares</ciudad>
+			<provincia>Jaén</provincia>
+			<pais>España</pais>
+			<cp>23700</cp>
+		</direccion>
     </contacto>
     <contacto sexo="mujer">
         <nombre>Andrea</nombre>
 		<apellidos>Perico Pipete</apellidos>
 		<fnacimiento>04/06/1993</fnacimiento>
-		<email>Andrea.perico@pipete.com</email>
+		<email>andrea.perico@pipete.com</email>
 		<telefono tipo="movil">616161616</telefono>
-        <direccion ciudad="Andújar" provincia="Jaén" calle="Juan Bosco" bloque="1C" piso="4B" />
+		<direccion>
+			<calle>Juan Bosco</calle>
+			<bloque>1C</bloque>
+			<letra>4B</letra>
+			<ciudad>Andújar</ciudad>
+			<provincia>Jaén</provincia>
+			<pais>España</pais>
+			<cp>23740</cp>
+		</direccion>
     </contacto>
 </agenda>
