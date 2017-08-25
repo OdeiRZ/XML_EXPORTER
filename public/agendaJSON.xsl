@@ -5,7 +5,7 @@
 		<xsl:text>{&#10; &#x9;"agenda": [</xsl:text>
 		<xsl:for-each select="/agenda/contacto">
 			<xsl:text>&#10; &#x9;&#x9;{</xsl:text>
-			<xsl:text>&#10; &#x9;&#x9;&#x9;"id": </xsl:text><xsl:value-of select="@id"/><xsl:text>,</xsl:text>
+			<xsl:text>&#10; &#x9;&#x9;&#x9;"id": </xsl:text>"<xsl:value-of select="@id"/>"<xsl:text>,</xsl:text>
 			<xsl:text>&#10; &#x9;&#x9;&#x9;"nombre": </xsl:text>"<xsl:value-of select="./nombre"/>"<xsl:text>,</xsl:text>
 			<xsl:text>&#10; &#x9;&#x9;&#x9;"apellidos": </xsl:text>"<xsl:value-of select="./apellidos"/>"<xsl:text>,</xsl:text>
 			<xsl:if test="(./fnacimiento)">

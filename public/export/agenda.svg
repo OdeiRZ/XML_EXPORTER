@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg">
+    <svg:text y="40" x="10" font-size="20">Edad de Odei Riveiro Zafra</svg:text><svg:text y="40" x="340" font-size="20">(~30)</svg:text><svg:rect y="30" x="400" width="300" height="10"/>
+    <svg:text y="80" x="10" font-size="20">Edad de Andrea Marcos Requena</svg:text><svg:text y="80" x="340" font-size="20">(~34)</svg:text><svg:rect y="70" x="400" width="340" height="10"/>
+    <svg:text y="120" x="10" font-size="20">Edad de Juan Antonio Rodriguez</svg:text><svg:text y="120" x="340" font-size="20">(~17)</svg:text><svg:rect y="110" x="400" width="170" height="10"/>
+</svg:svg>

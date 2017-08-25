@@ -1,0 +1,23 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <https://github.com/OdeiRZ/XML_EXPORTER> . 
+		
+:_1 :nombre: Odei .
+:_1 :apellidos: Riveiro Zafra .
+:_1 :fnacimiento: 22/12/1987 .
+:_1 :email: odei.riveiro@zafra.com .
+:_1 :tipo: fijo - :telefono: 953000000 .
+:_1 :tipo: movil - :telefono: 666666666 .
+:_1 :direccion: Salvador Dalí, 9B, 2A. Linares, (Jaén). CP: 23700, España .
+
+:_2 :nombre: Andrea .
+:_2 :apellidos: Marcos Requena .
+:_2 :fnacimiento: 04/06/1983 .
+:_2 :email: andrea.marcos@requena.com .
+:_1 :tipo: movil - :telefono: 616161616 .
+
+:_3 :nombre: Juan Antonio .
+:_3 :apellidos: Rodriguez .
+:_3 :fnacimiento: 12/01/2000 .
+:_1 :tipo: fijo - :telefono: 999888777 .
+:_3 :direccion: Juan Bosco, 1C, 4B. Andújar, (Jaén). CP: 23740, España .

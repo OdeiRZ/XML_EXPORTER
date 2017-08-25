@@ -1,0 +1,48 @@
+{
+ 	"agenda": [
+ 		{
+ 			"id": "_1",
+ 			"nombre": "Odei",
+ 			"apellidos": "Riveiro Zafra",
+ 			"fnacimiento": "22/12/1987",
+ 			"email": "odei.riveiro@zafra.com",
+ 			"telefonos": [
+ 				{
+ 					"tipo": "fijo",
+ 					"numero": "953000000"
+ 				},
+ 				{
+ 					"tipo": "movil",
+ 					"numero": "666666666"
+ 				}
+ 			],
+ 			"direccion": "Salvador Dalí, 9B, 2A. Linares, (Jaén). CP: 23700, España"
+ 		},
+ 		{
+ 			"id": "_2",
+ 			"nombre": "Andrea",
+ 			"apellidos": "Marcos Requena",
+ 			"fnacimiento": "04/06/1983",
+ 			"email": "andrea.marcos@requena.com",
+ 			"telefonos": [
+ 				{
+ 					"tipo": "movil",
+ 					"numero": "616161616"
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"id": "_3",
+ 			"nombre": "Juan Antonio",
+ 			"apellidos": "Rodriguez",
+ 			"fnacimiento": "12/01/2000",
+ 			"telefonos": [
+ 				{
+ 					"tipo": "fijo",
+ 					"numero": "999888777"
+ 				}
+ 			],
+ 			"direccion": "Juan Bosco, 1C, 4B. Andújar, (Jaén). CP: 23740, España"
+ 		}
+ 	]
+}

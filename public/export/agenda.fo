@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<fo:contacto xmlns:fo="http://www.w3.org/1999/XSL/Format">
+ 	<fo:id>_1</fo:id>
+ 	<fo:nombre>Odei</fo:nombre>
+ 	<fo:apellidos>Riveiro Zafra</fo:apellidos>
+ 	<fo:fnacimiento>22/12/1987</fo:fnacimiento>
+ 	<fo:email>odei.riveiro@zafra.com</fo:email>
+ 	<fo:telefono>fijo: 953000000</fo:telefono>
+ 	<fo:telefono>movil: 666666666</fo:telefono>
+ 	<fo:direccion>Salvador Dalí, 9B, 2A. Linares, (Jaén). CP: 23700, España</fo:direccion>
+</fo:contacto>
+<fo:contacto xmlns:fo="http://www.w3.org/1999/XSL/Format">
+ 	<fo:id>_2</fo:id>
+ 	<fo:nombre>Andrea</fo:nombre>
+ 	<fo:apellidos>Marcos Requena</fo:apellidos>
+ 	<fo:fnacimiento>04/06/1983</fo:fnacimiento>
+ 	<fo:email>andrea.marcos@requena.com</fo:email>
+ 	<fo:telefono>movil: 616161616</fo:telefono>
+ 	</fo:contacto>
+<fo:contacto xmlns:fo="http://www.w3.org/1999/XSL/Format">
+ 	<fo:id>_3</fo:id>
+ 	<fo:nombre>Juan Antonio</fo:nombre>
+ 	<fo:apellidos>Rodriguez</fo:apellidos>
+ 	<fo:fnacimiento>12/01/2000</fo:fnacimiento>
+ 	<fo:telefono>fijo: 999888777</fo:telefono>
+ 	<fo:direccion>Juan Bosco, 1C, 4B. Andújar, (Jaén). CP: 23740, España</fo:direccion>
+</fo:contacto>
+
