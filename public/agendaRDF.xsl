@@ -4,7 +4,7 @@
 	<xsl:template match="/">
 		<xsl:text><![CDATA[
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix : <https://github.com/OdeiRZ/XML_EXPORTER> . ]]>
+@prefix : <https://github.com/OdeiRZ/XML_Exporter> . ]]>
 		</xsl:text>
 		<xsl:for-each select="/agenda/contacto">
 			<xsl:text>&#10;:</xsl:text><xsl:value-of select="@id"/><xsl:text> :nombre: </xsl:text><xsl:value-of select="./nombre"/>
