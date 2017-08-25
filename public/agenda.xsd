@@ -33,7 +33,7 @@
 							<xs:element name="email" minOccurs="0">
 								<xs:simpleType>
 									<xs:restriction base="xs:string">
-										<xs:pattern value="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"/>
+										<xs:pattern value="\w+([\-+.']\w+)*@\w+([\-.]\w+)*\.\w+([\-.]\w+)*"/>
 									</xs:restriction>
 								</xs:simpleType>
 							</xs:element>
@@ -120,13 +120,7 @@
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
-						<xs:attribute name="id" use="required">
-							<xs:simpleType>
-								<xs:restriction base="xs:integer">
-									<xs:minInclusive value="0"/>
-								</xs:restriction>
-							</xs:simpleType>
-						</xs:attribute>
+						<xs:attribute name="id" type="xs:string" use="required"/>
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>

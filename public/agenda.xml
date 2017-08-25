@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE agenda SYSTEM "agenda.dtd">
 <?xml-stylesheet href="agenda.xsl" type="text/xsl"?>
-<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="agenda.xsd">
-    <contacto id="1">
+<agenda>
+    <contacto id="_1">
         <nombre>Odei</nombre>
 		<apellidos>Riveiro Zafra</apellidos>
 		<fnacimiento>22/12/1987</fnacimiento>
@@ -21,7 +21,7 @@
 			<cp>23700</cp>
 		</direccion>
     </contacto>
-    <contacto id="2">
+    <contacto id="_2">
         <nombre>Andrea</nombre>
 		<apellidos>Marcos Requena</apellidos>
 		<fnacimiento>04/06/1983</fnacimiento>
@@ -30,7 +30,7 @@
 			<telefono tipo="movil">616161616</telefono>
 		</telefonos>
     </contacto>
-    <contacto id="3">
+    <contacto id="_3">
         <nombre>Juan Antonio</nombre>
 		<apellidos>Rodriguez</apellidos>
 		<fnacimiento>12/01/2000</fnacimiento>
