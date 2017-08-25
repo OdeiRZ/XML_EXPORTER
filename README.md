@@ -1,10 +1,9 @@
-XML Exporter
+XML Exporter 0.9
 =========================================
 
 Utilidad usada para trabajar con diferentes ficheros [XML] y permitir su exportación a distintos formatos,
-habilitando la conversión de [XML] a [HTML], [XSL-FO], [JSON], [RDF], [SVG] y [PDF] entre otros.
-
-La demo incluye diversos ficheros convertidos como resultado de la utilización de la utilidad implementada.
+habilitando la conversión de [XML] a [HTML], [XSL-FO], [JSON], [RDF], [SVG] y [PDF] entre otros. La demo 
+incluye diversos ficheros convertidos como resultado de la utilización de la utilidad implementada.
 
 ## Requisitos
 - Navegador Web [Chrome], [Firefox], [Opera], [Microsoft Edge], etc.. (para visualizar la página [HTML] exportada)
@@ -46,7 +45,7 @@ Para convertir nuestro [XML] a [RDF] mediante [XSLT]
 Para convertir nuestro [XML] a [SVG] mediante [XSLT]
 > xsltproc -o agenda.svg agendaSVG.xsl agenda.xml
 
-Para convertir [XSL-FO] a [PDF] mediante [Apache FOP] (requiere una instalación externa)
+Para convertir [XSL-FO] a [PDF] mediante [Apache FOP] (requiere instalación externa)
 > fop agenda.fo agenda.pdf
 
 ## Licencia
