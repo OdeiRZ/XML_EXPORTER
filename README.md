@@ -1,4 +1,4 @@
-XML Exporter 0.9
+XML Exporter
 =========================================
 
 Utilidad usada para trabajar con diferentes ficheros [XML] y permitir su exportación a distintos formatos,
