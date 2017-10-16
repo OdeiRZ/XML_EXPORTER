@@ -1,7 +1,7 @@
 XML Exporter
 =========================================
 
-Utilidad usada para trabajar con diferentes ficheros [XML] y permitir su exportación a distintos formatos,
+Utilidad usada para procesar diferentes ficheros [XML] y permitir su exportación a distintos formatos,
 habilitando la conversión de [XML] a [HTML], [XSL-FO], [JSON], [RDF], [SVG] y [PDF] entre otros. La demo 
 incluye diversos ficheros convertidos como resultado de la utilización de la utilidad implementada.
 
